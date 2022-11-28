@@ -1,0 +1,82 @@
+  .centered-wrapper {
+    position: relative;
+    text-align: center;
+  }
+  
+  .centered-wrapper:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+  }
+
+  .centered-content {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .content {
+    display: inline-block;
+    text-align: start;
+  }
+
+  html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+  body {
+    font-size: 10pt;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    line-height: 14pt;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+  }
+  
+  pre {
+      font-size: 10pt;
+    }
+
+  h1 {
+    font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    line-height: 20pt;
+  }
+  
+  p.subheader {
+    color: greenyellow;
+  }
+  
+  img {
+    padding: 3pt;
+    float: right;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:link, a:visited {
+    color: green;
+  }
+  
+  a:hover, a:active {
+    color: lightgreen;
+  }
+  
+  div.footer {
+    font-size: 9pt;
+    font-style: italic;
+    line-height: 12pt;
+    text-align: center;
+    padding-top: 30pt;
+  }
